@@ -20,7 +20,7 @@ public class Bear : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space) && isAlive) {
-            myRigitBody.velocity = Vector2.up * jumpForce;
+            myRigitBody.velocity += Vector2.up * jumpForce;
         }
         if(myRigitBody.velocity.x < speed / 50)
         {
