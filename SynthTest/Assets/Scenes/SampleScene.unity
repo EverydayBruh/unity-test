@@ -737,8 +737,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   russia: {fileID: 5825336172414602549, guid: c71b76b81a0d98644802461275231116, type: 3}
-  spawn_time: 4
-  highOffset: 3
+  spawn_time: 2
+  highOffset: 2.5
 --- !u!4 &823014738
 Transform:
   m_ObjectHideFlags: 0
@@ -747,7 +747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823014736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.83, y: 0.09, z: 0.026259135}
+  m_LocalPosition: {x: 11.27, y: 0.09, z: 0.026259135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1431,7 +1431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8815902236269021248, guid: c87b381b3a1270944a179c8129a13b0d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0944
+      value: -6.04
       objectReference: {fileID: 0}
     - target: {fileID: 8815902236269021248, guid: c87b381b3a1270944a179c8129a13b0d, type: 3}
       propertyPath: m_LocalPosition.y
